@@ -48,7 +48,7 @@ bool found_device = false, debug = false, verbose = false;
 char *app_path = NULL;
 char *device_id = NULL;
 char *args = NULL;
-int timeout = 0;
+int timeout = 10;
 CFStringRef last_path = NULL;
 service_conn_t gdbfd;
 
